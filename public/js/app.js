@@ -4,7 +4,7 @@
     const pOne = document.querySelector('#p1')
     const pTwo = document.querySelector('#p2')
 
-
+console.log('git')
 
     weatherForm.addEventListener('submit',(event) => { 
  
@@ -19,7 +19,6 @@
         return   pOne.textContent = data.error
         }
         else { 
-    console.log(data);
     pOne.textContent = data.location
     pTwo.textContent = data.temp
         }
